@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Shop Jerseys | KICKWEAR</title>
+    <meta name="description" content="Browse club and national team jerseys at KICKWEAR." />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="topbar">
+      <div class="container nav">
+        <a href="index.html" class="brand" aria-label="KICKWEAR home">
+          <span class="brand-mark">K</span>
+          <span>KICKWEAR</span>
+        </a>
+
+        <nav class="menu" aria-label="Main menu">
+          <a href="index.html">Home</a>
+          <a href="shop.html" class="active">Shop</a>
+          <a href="product.html">Product</a>
+          <a href="about.html">About</a>
+          <a href="contact.html">Contact</a>
+        </nav>
+
+        <div class="nav-actions">
+          <button class="icon-btn">Search</button>
+          <button class="icon-btn">Account</button>
+          <button class="cart-btn">Cart <span id="cart-count">0</span></button>
+        </div>
+      </div>
+    </header>
+
+    <main>
+      <section class="page-hero compact-hero">
+        <div class="container">
+          <p class="eyebrow">Shop all</p>
+          <h1>Jerseys for every fan</h1>
+        </div>
+      </section>
+
+      <section class="section">
+        <div class="container">
+          <div class="toolbar">
+            <div class="filter-group">
+              <button class="filter-chip active">All</button>
+              <button class="filter-chip">Club</button>
+              <button class="filter-chip">National</button>
+              <button class="filter-chip">Sale</button>
+            </div>
+            <div class="sort-box">
+              <label for="sort">Sort by</label>
+              <select id="sort">
+                <option>Featured</option>
+                <option>Price: Low to High</option>
+                <option>Price: High to Low</option>
+                <option>Newest</option>
+              </select>
+            </div>
+          </div>
+
+          <div class="product-grid shop-grid">
+            <article class="product-item">
+              <div class="product-image">
+                <img src="https://images.unsplash.com/photo-1517466787929-bc90951d0974?auto=format&fit=crop&w=800&q=80" alt="Manchester United jersey" />
+              </div>
+              <div class="product-meta">
+                <h3>Manchester United</h3>
+                <p>Home 2024</p>
+                <div class="product-row">
+                  <span class="price">$92</span>
+                  <button class="add-to-cart" data-name="Manchester United" data-price="92">Add to cart</button>
+                </div>
+              </div>
+            </article>
+
+            <article class="product-item">
+              <div class="product-image">
+                <img src="https://images.unsplash.com/photo-1521572267360-ee0c2909d518?auto=format&fit=crop&w=800&q=80" alt="Real Madrid jersey" />
+              </div>
+              <div class="product-meta">
+                <h3>Real Madrid</h3>
+                <p>Third Kit</p>
+                <div class="product-row">
+                  <span class="price">$95</span>
+                  <button class="add-to-cart" data-name="Real Madrid" data-price="95">Add to cart</button>
+                </div>
+              </div>
+            </article>
+
+            <article class="product-item">
+              <div class="product-image">
+                <img src="https://images.unsplash.com/photo-1579952363873-27d3bfad9c0d?auto=format&fit=crop&w=800&q=80" alt="Brazil jersey" />
+              </div>
+              <div class="product-meta">
+                <h3>Brazil</h3>
+                <p>Home Edition</p>
+                <div class="product-row">
+                  <span class="price">$88</span>
+                  <button class="add-to-cart" data-name="Brazil" data-price="88">Add to cart</button>
+                </div>
+              </div>
+            </article>
+
+            <article class="product-item">
+              <div class="product-image">
+                <img src="https://images.unsplash.com/photo-1553778263-73a83bab9b0c?auto=format&fit=crop&w=800&q=80" alt="France jersey" />
+              </div>
+              <div class="product-meta">
+                <h3>France</h3>
+                <p>Champion Kit</p>
+                <div class="product-row">
+                  <span class="price">$96</span>
+                  <button class="add-to-cart" data-name="France" data-price="96">Add to cart</button>
+                </div>
+              </div>
+            </article>
+
+            <article class="product-item">
+              <div class="product-image">
+                <img src="https://images.unsplash.com/photo-1599058917212-d750089bc07e?auto=format&fit=crop&w=800&q=80" alt="Argentina jersey" />
+              </div>
+              <div class="product-meta">
+                <h3>Argentina</h3>
+                <p>Home Strip</p>
+                <div class="product-row">
+                  <span class="price">$90</span>
+                  <button class="add-to-cart" data-name="Argentina" data-price="90">Add to cart</button>
+                </div>
+              </div>
+            </article>
+
+            <article class="product-item">
+              <div class="product-image">
+                <img src="https://images.unsplash.com/photo-1517649763962-0c623066013b?auto=format&fit=crop&w=800&q=80" alt="Chelsea jersey" />
+              </div>
+              <div class="product-meta">
+                <h3>Chelsea</h3>
+                <p>Matchday 24/25</p>
+                <div class="product-row">
+                  <span class="price">$91</span>
+                  <button class="add-to-cart" data-name="Chelsea" data-price="91">Add to cart</button>
+                </div>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container footer-grid">
+        <div>
+          <div class="brand footer-brand">
+            <span class="brand-mark">K</span>
+            <span>KICKWEAR</span>
+          </div>
+          <p>Premium football jerseys for passionate fans.</p>
+        </div>
+
+        <div>
+          <h4>Shop</h4>
+          <ul>
+            <li>Home Kits</li>
+            <li>Away Kits</li>
+            <li>Third Kits</li>
+            <li>Sale</li>
+          </ul>
+        </div>
+
+        <div>
+          <h4>Support</h4>
+          <ul>
+            <li>Shipping</li>
+            <li>Returns</li>
+            <li>FAQ</li>
+            <li>Contact</li>
+          </ul>
+        </div>
+
+        <div>
+          <h4>Follow us</h4>
+          <ul>
+            <li>Instagram</li>
+            <li>Twitter</li>
+            <li>Facebook</li>
+            <li>YouTube</li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="container footer-bottom">
+        <p>© 2026 KICKWEAR. All rights reserved.</p>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>

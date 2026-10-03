@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>KICKWEAR | Premium Jerseys</title>
+    <meta name="description" content="Official football jerseys, club kits, and matchday gear for passionate fans." />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="topbar">
+      <div class="container nav">
+        <a href="index.html" class="brand" aria-label="KICKWEAR home">
+          <span class="brand-mark">K</span>
+          <span>KICKWEAR</span>
+        </a>
+
+        <nav class="menu" aria-label="Main menu">
+          <a href="index.html" class="active">Home</a>
+          <a href="shop.html">Shop</a>
+          <a href="product.html">Product</a>
+          <a href="about.html">About</a>
+          <a href="contact.html">Contact</a>
+        </nav>
+
+        <div class="nav-actions">
+          <button class="icon-btn" aria-label="Search">Search</button>
+          <button class="icon-btn" aria-label="Account">Account</button>
+          <button class="cart-btn" aria-label="Cart">
+            Cart <span id="cart-count">0</span>
+          </button>
+        </div>
+      </div>
+    </header>
+
+    <main>
+      <section class="hero">
+        <div class="container hero-content">
+          <div class="hero-text">
+            <p class="eyebrow">Official matchday gear</p>
+            <h1>Own the pitch in style.</h1>
+            <p>
+              Premium football jerseys for fans who live for the game. Built for
+              comfort, designed for matchday energy.
+            </p>
+
+            <div class="hero-actions">
+              <a href="shop.html" class="btn btn-primary">Shop Jerseys</a>
+              <a href="product.html" class="btn btn-secondary">View Collection</a>
+            </div>
+
+            <div class="hero-stats">
+              <div>
+                <strong>20k+</strong>
+                <span>fans served</span>
+              </div>
+              <div>
+                <strong>4.9/5</strong>
+                <span>rating</span>
+              </div>
+              <div>
+                <strong>48h</strong>
+                <span>shipping</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="hero-visual">
+            <div class="product-card highlight">
+              <div class="card-badge">Best Seller</div>
+              <img src="https://images.unsplash.com/photo-1547347298-4074fc3086f0?auto=format&fit=crop&w=900&q=80" alt="Football jersey" />
+              <div class="card-info">
+                <h3>Barcelona Home 24/25</h3>
+                <p>$89.99</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="brands">
+        <div class="container brands-row">
+          <span>Premier League</span>
+          <span>La Liga</span>
+          <span>Serie A</span>
+          <span>Bundesliga</span>
+          <span>World Cup</span>
+        </div>
+      </section>
+
+      <section id="featured" class="section">
+        <div class="container">
+          <div class="section-heading">
+            <p class="eyebrow dark">Featured collection</p>
+            <h2>Popular jerseys</h2>
+          </div>
+
+          <div class="product-grid">
+            <article class="product-item">
+              <div class="product-image">
+                <img src="https://images.unsplash.com/photo-1517466787929-bc90951d0974?auto=format&fit=crop&w=800&q=80" alt="Manchester United jersey" />
+              </div>
+              <div class="product-meta">
+                <h3>Manchester United</h3>
+                <p>Home 2024</p>
+                <div class="product-row">
+                  <span class="price">$92</span>
+                  <button class="add-to-cart" data-name="Manchester United" data-price="92">Add to cart</button>
+                </div>
+              </div>
+            </article>
+
+            <article class="product-item">
+              <div class="product-image">
+                <img src="https://images.unsplash.com/photo-1521572267360-ee0c2909d518?auto=format&fit=crop&w=800&q=80" alt="Real Madrid jersey" />
+              </div>
+              <div class="product-meta">
+                <h3>Real Madrid</h3>
+                <p>Third Kit</p>
+                <div class="product-row">
+                  <span class="price">$95</span>
+                  <button class="add-to-cart" data-name="Real Madrid" data-price="95">Add to cart</button>
+                </div>
+              </div>
+            </article>
+
+            <article class="product-item">
+              <div class="product-image">
+                <img src="https://images.unsplash.com/photo-1579952363873-27d3bfad9c0d?auto=format&fit=crop&w=800&q=80" alt="Brazil jersey" />
+              </div>
+              <div class="product-meta">
+                <h3>Brazil</h3>
+                <p>Home Edition</p>
+                <div class="product-row">
+                  <span class="price">$88</span>
+                  <button class="add-to-cart" data-name="Brazil" data-price="88">Add to cart</button>
+                </div>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="promo-banner">
+        <div class="container promo-inner">
+          <div>
+            <p class="eyebrow">Flash sale</p>
+            <h2>Up to 40% off selected kits</h2>
+          </div>
+          <a href="shop.html" class="btn btn-primary">Shop the deal</a>
+        </div>
+      </section>
+
+      <section class="section">
+        <div class="container">
+          <div class="section-heading">
+            <p class="eyebrow dark">Why choose us</p>
+            <h2>Built for supporters</h2>
+          </div>
+
+          <div class="features">
+            <div class="feature-box">
+              <span class="feature-icon">⚽</span>
+              <h3>Official replicas</h3>
+              <p>Authentic styles inspired by top clubs and national teams.</p>
+            </div>
+            <div class="feature-box">
+              <span class="feature-icon">🚚</span>
+              <h3>Fast shipping</h3>
+              <p>Quick dispatch with reliable delivery across the country.</p>
+            </div>
+            <div class="feature-box">
+              <span class="feature-icon">🛡️</span>
+              <h3>Easy returns</h3>
+              <p>Hassle-free returns and responsive customer support.</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="newsletter">
+        <div class="container newsletter-box">
+          <div>
+            <p class="eyebrow">Stay in the loop</p>
+            <h2>Get new drops and special offers</h2>
+          </div>
+          <form class="subscribe-form">
+            <input type="email" placeholder="Enter your email" />
+            <button type="submit" class="btn btn-primary">Subscribe</button>
+          </form>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container footer-grid">
+        <div>
+          <div class="brand footer-brand">
+            <span class="brand-mark">K</span>
+            <span>KICKWEAR</span>
+          </div>
+          <p>Premium football jerseys for passionate fans.</p>
+        </div>
+
+        <div>
+          <h4>Shop</h4>
+          <ul>
+            <li>Home Kits</li>
+            <li>Away Kits</li>
+            <li>Third Kits</li>
+            <li>Sale</li>
+          </ul>
+        </div>
+
+        <div>
+          <h4>Support</h4>
+          <ul>
+            <li>Shipping</li>
+            <li>Returns</li>
+            <li>FAQ</li>
+            <li>Contact</li>
+          </ul>
+        </div>
+
+        <div>
+          <h4>Follow us</h4>
+          <ul>
+            <li>Instagram</li>
+            <li>Twitter</li>
+            <li>Facebook</li>
+            <li>YouTube</li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="container footer-bottom">
+        <p>© 2026 KICKWEAR. All rights reserved.</p>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
